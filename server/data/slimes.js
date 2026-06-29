@@ -1,0 +1,58 @@
+const slimes = [
+    {
+        texture: 'glossy',
+        slime_size: 'M',
+        colors: ['red', 'blush'],
+        toppings: ['strawberries'],
+        glitters: ['love rush'],
+        micas: ['red sparkle'],
+        scent: 'strawberry',
+    },
+    {
+        texture: 'jelly',
+        slime_size: 'S',
+        colors: ['ink', 'ultraviolet'],
+        toppings: ['pearls'],
+        glitters: ['beetle', 'celestial'],
+        micas: ['light purple'],
+        scent: 'raspberry',
+    },
+    {
+        texture: 'cloud',
+        slime_size: 'L',
+        colors: ['sky blue', 'blush'],
+        toppings: ['candy', 'rainbow nonpareils'],
+        glitters: ['none'],
+        micas: ['none'],
+        scent: 'cotton candy',
+    },
+    {
+        texture: 'water',
+        slime_size: 'S',
+        colors: ['turquoise'],
+        toppings: ['rubber ducks', 'pearls'],
+        glitters: ['raindrops'],
+        micas: ['turquoise blue'],
+        scent: 'mango',
+    },
+    {
+        texture: 'butter',
+        slime_size: 'S',
+        colors: ['mint'],
+        toppings: ['rubber ducks'],
+        glitters: ['daisies'],
+        micas: ['fresh green', 'yellow'],
+        scent: 'kiwi',
+    },
+    {
+        texture: 'jelly',
+        slime_size: 'L',
+        colors: ['honey'],
+        toppings: ['pearls'],
+        glitters: ['autumn'],
+        micas: ['gold'],
+        scent: 'honey',
+    },
+]
+
+export default slimes;

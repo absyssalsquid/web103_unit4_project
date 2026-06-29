@@ -4,14 +4,14 @@ import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
 
 // import the router from your routes file
-
+import slimeRouter from './routes/slimes.js'
+import optionRouter from './routes/options.js'
 
 dotenv.config()
 
 const PORT = process.env.PORT || 3000
 
 const app = express()
-
 app.use(express.json())
 
 if (process.env.NODE_ENV === 'development') {
@@ -23,7 +23,8 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
-
+app.use('/options', optionRouter)
+app.use('/slimes', slimeRouter)
 
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>

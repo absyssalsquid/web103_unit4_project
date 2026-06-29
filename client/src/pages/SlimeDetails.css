@@ -1,0 +1,16 @@
+.SlimeDetails {
+    text-align: center;
+}
+
+.SlimeDetails td.col1{
+    font-weight: bold;
+}
+
+.SlimeDetails img.texture{
+    height: 200px;
+    margin: 5px 0;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    display: inline-block;
+    object-fit: cover;
+}

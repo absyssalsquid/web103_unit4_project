@@ -1,0 +1,13 @@
+.ColorTag{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.ColorTag .color-block{
+    height: 25px;
+    aspect-ratio: 1/1;
+    margin-right: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.SlimeCard {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.281);
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    margin: 5px;
+    padding: 1em;
+    width: 400px;
+    text-align: center;
+}
+
+.SlimeCard img{
+    object-fit: cover;
+}
+
+.SlimeCard img.texture{
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.SlimeCard .buttons > * {
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+    display: inline-block;
+}

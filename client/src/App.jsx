@@ -1,29 +1,30 @@
 import React from 'react'
 import { useRoutes } from 'react-router-dom'
 import Navigation from './components/Navigation'
-import ViewCars from './pages/ViewCars'
-import EditCar from './pages/EditCar'
-import CreateCar from './pages/CreateCar'
-import CarDetails from './pages/CarDetails'
+import ViewSlimes from './pages/ViewSlimes'
+import EditSlime from './pages/EditSlime'
+import CreateSlime from './pages/CreateSlime'
+import SlimeDetails from './pages/SlimeDetails'
 import './App.css'
 
 const App = () => {
+  const shopName = 'LoveSlime'
   let element = useRoutes([
     {
-      path: '/',
-      element: <CreateCar title='BOLT BUCKET | Customize' />
+      path: '/create',
+      element: <CreateSlime title={`${shopName} | Create slime`} />
     },
     {
-      path:'/customcars',
-      element: <ViewCars title='BOLT BUCKET | Custom Cars' />
+      path:'/slimes',
+      element: <ViewSlimes title={`${shopName} | Custom Slimes`} />
     },
     {
-      path: '/customcars/:id',
-      element: <CarDetails title='BOLT BUCKET | View' />
+      path: '/slimes/:id',
+      element: <SlimeDetails title={`${shopName} | View`} />
     },
     {
       path: '/edit/:id',
-      element: <EditCar title='BOLT BUCKET | Edit' />
+      element: <EditSlime title={`${shopName} | Edit`} />
     }
   ])
 

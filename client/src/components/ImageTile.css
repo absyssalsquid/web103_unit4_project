@@ -1,0 +1,36 @@
+.ImageTile {
+    --img-size: 50px;
+    --display-caption: none;
+    --scale-factor: 1;
+}
+
+.ImageTile{
+    display: inline-block;
+    padding: 5px;
+}
+
+.ImageTile img{
+    object-fit: cover;
+}
+
+.ImageTile .img-container{
+    height: var(--img-size);
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.ImageTile .img-container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease; 
+}
+.ImageTile .img-container:hover img {
+  transform: scale(var(--scale-factor)); 
+}
+
+.ImageTile .caption {
+    display: var(--display-caption);
+    font-size: 0.8em;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+input[type="checkbox"] {
+  display: none;
+}
+
+label{
+  display: block;
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+:checked+label {
+  background-color: rgb(204, 204, 204);
+}
+
+.SlimeDetails .ImageTile {
+  --img-size: 150px;
+  --display-caption: block;
+  --scale-factor: 2;
+}
+td select {
+  margin: 0;
+}
+
+.form-buttons > * {
+    display: inline-block;
+}
