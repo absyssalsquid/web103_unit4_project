@@ -40,31 +40,29 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-Frontend
+Frontend\
 Detail page
-<img src='walkthrough/frontend_detail_page.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough/frontend_detail_page.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />  
 
 Create
-<img src='walkthrough/frontend_create.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough/frontend_create.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />  
 
 Edit and delete
-<img src='walkthrough/frontend_edit_delete.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough/frontend_edit_delete.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />  
 
 
-Render backend
+Render backend  
 <img src='walkthrough/render.gif'/>
 
-db contents
-<img src='walkthrough/db_tables.png'/>
-<img src='walkthrough/db_slimes.png'/>
-<img src='walkthrough/db_slime_colors.png'/>
-<img src='walkthrough/db_slime_glitters.png'/>
-<img src='walkthrough/db_slime_toppings.png'/>
-<img src='walkthrough/db_slime_micas.png'/>
+db contents  
+<img src='walkthrough/db_tables.png'/>  
+<img src='walkthrough/db_slimes.png'/>  
+<img src='walkthrough/db_slime_colors.png'/>  
+<img src='walkthrough/db_slime_glitters.png'/>  
+<img src='walkthrough/db_slime_toppings.png'/>  
+<img src='walkthrough/db_slime_micas.png'/>  
 
 GIFs created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
-
 ## Notes
-
 Describe any challenges encountered while building the app or any additional context you'd like to add.
